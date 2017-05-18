@@ -4,7 +4,7 @@ var app = express();
 
 app.get("/", function(request, response)
 {
-	response.json({message:"welcome to express-generator tool"});
+	response.json({message:"welcome to express-generator"});
 })
 
 module.exports = app;
